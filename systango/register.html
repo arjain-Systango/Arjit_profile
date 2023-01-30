@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="register.css">
+    <title>Register</title>
+</head>
+<body>
+    <form id="form"> 
+        <div class="container">
+          <label for="Name"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" name="Name" id="name" >
+
+          <label for="college name"><b>College Name</b></label>
+          <input type="text" placeholder="Enter college Name" name="College-Name" id="collegename" >
+
+          <label for="email"><b>email</b></label>
+          <input type="text" placeholder="Enter email" name="email" id="email" >
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" >
+          
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" >
+
+          <label for="phone"><b>Phone Number</b></label>
+          <input type="text" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Phone Number" name="phone" id="phone" >
+
+          <button type="submit" class="register">Register</button>
+        </div>
+      
+        <div class="container">
+          <a href="login.html"><button type="button" class="loginbtn">login</button></a> 
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+        
+      </form>
+      <script src="register.js"></script>
+</body>
+</html>
